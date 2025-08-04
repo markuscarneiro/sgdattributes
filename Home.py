@@ -1,6 +1,9 @@
 import streamlit as st
 import os
 os.environ["STREAMLIT_THEME_BASE"] = "light"
+st.write("Theme base:", os.listdir("."))
+st.write("Streamlit config:", os.path.exists(".streamlit/config.toml"))
+
 
 # Configurações da página
 st.set_page_config(
@@ -28,6 +31,7 @@ The data visualization tool was developed by:
 
 # Footer
 st.markdown("---")
+
 
 
 
