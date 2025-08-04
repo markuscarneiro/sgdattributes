@@ -1,6 +1,4 @@
 import streamlit as st
-import os
-os.environ["STREAMLIT_THEME_BASE"] = "light"
 
 
 # Configurações da página
@@ -29,4 +27,5 @@ The data visualization tool was developed by:
 
 # Footer
 st.markdown("---")
+
 
