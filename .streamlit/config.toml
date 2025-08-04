@@ -1,3 +1,8 @@
 [theme]
 base="light"
 backgroundColor="#FFFFFF"
+
+[server]
+headless = true
+enableCORS = false
+port = $PORT
