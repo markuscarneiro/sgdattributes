@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Carregando o arquivo Excel
-file_path = "SDG_attributes_ANEXO.xlsx"  # Ajuste o caminho conforme necessário
+file_path = "file_path = "../SDG_attributes_ANEXO.xlsx"  # Ajuste o caminho conforme necessário
 try:
     data = pd.read_excel(file_path)
     
